@@ -1,0 +1,7 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <logger name="org.apache.http" level="DEBUG"/>
+    <logger name="com.github.dockerjava" level="DEBUG"/>
+    <logger name="org.zeroturnaround.exec" level="DEBUG"/>
+</configuration>

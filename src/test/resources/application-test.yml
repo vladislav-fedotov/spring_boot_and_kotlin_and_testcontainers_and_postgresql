@@ -1,0 +1,5 @@
+spring:
+  jpa.properties.hibernate.jdbc.lob.non_contextual_creation: true # SQLFeatureNotSupportedException: Method org.postgresql.jdbc.PgConnection.createClob() is not yet implemented
+#  jpa.generate-ddl: false
+  jpa.hibernate.ddl-auto: create # PSQLException: ERROR: relation "model" does not exist
+  jpa.show-sql: true
